@@ -69,3 +69,38 @@ button{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+/* JS styles */
+.activefooter{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 0;
+    background-color: hsl(217, 19%, 35%);
+    width: 100%;
+    border-radius: 0 0 .5em .5em;
+    text-align: center;
+}
+
+.activefooter p{
+    color: hsl(212, 23%, 69%);
+    font-size: 1.1em;
+    text-justify: justify;
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.activefooter button{
+    grid-column: 3;
+    background-color: hsl(212, 23%, 69%);
+}
