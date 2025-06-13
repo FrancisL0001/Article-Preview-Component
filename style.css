@@ -15,22 +15,23 @@ body{
 }
 
 h1{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 700;
-    width: 90%;
+    width: 80%;
     padding-top: 5%;
     margin-bottom: -6px;
 }
 
 .container p{
-    width: 90%;
-    font-size: 1.1em;
+    width: 80%;
+    font-size: .91em;
     color: hsl(212, 23%, 69%);
     font-weight: 500;
 }
 .drawer{
     border-radius: .5em .5em 0% 0%;
     width: 100%;
+    height: 14em;
 }
 
 .avatar, button{
@@ -43,7 +44,7 @@ h1{
     justify-content: center;
     place-items: center;
     margin-bottom: 5%;
-    width: 100%;
+    width: 90%;
 }
 
 .avatar{
@@ -90,6 +91,7 @@ button{
     color: hsl(212, 23%, 69%);
     font-size: 1.1em;
     text-justify: justify;
+    width: 100%;
 }
 
 .social-icons{

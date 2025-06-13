@@ -5,6 +5,7 @@ const button = footer.querySelector('button');
 
 button.addEventListener("click", function(e) {
     const test = footer.classList.toggle('activefooter');
+    // Toggle the footer class to switch between states
     if (test){   
         footer.innerHTML = `
            <p> SHARE </p>
